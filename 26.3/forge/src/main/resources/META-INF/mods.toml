@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[66,)"
+license="MIT"
+clientSideOnly=true
+[[mods]]
+modId="instantzoom"
+version="1.1.1"
+displayName="Instant Zoom"
+description="Client-side instant 4x zoom, rebindable C key, no cinematic smoothing."
+[[dependencies.instantzoom]]
+modId="minecraft"
+mandatory=true
+versionRange="[26.3,26.4)"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.instantzoom]]
+modId="forge"
+mandatory=true
+versionRange="[66,)"
+ordering="NONE"
+side="CLIENT"
